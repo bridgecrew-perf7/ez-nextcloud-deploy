@@ -90,7 +90,7 @@ services:
             - NEXTCLOUD_TRUSTED_DOMAINS=${VIRTUAL_HOST}
             - VIRTUAL_HOST=${VIRTUAL_HOST}
             - LETSENCRYPT_HOST=${VIRTUAL_HOST}
-#            - LETSENCRYPT_EMAIL=${LE_MAIL}
+            - LETSENCRYPT_EMAIL=${LE_MAIL}
         restart: unless-stopped
 
 networks:

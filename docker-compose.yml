@@ -45,7 +45,7 @@ services:
             nextcloud_network:
                 ipv4_address: 172.28.0.5
         env_file: .env
-        environnement:
+        environment:
             - REDIS_PASSWORD=${REDIS_PASSWORD}
             - ALLOW_EMPTY_PASSWORD=no
         restart: unless-stopped
